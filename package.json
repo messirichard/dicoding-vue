@@ -1,7 +1,7 @@
 {
-  "name": "dicoding",
+  "name": "corona",
   "version": "1.0.0",
-  "description": "Richard Project Dicoding Submission",
+  "description": "Richard Project Corona",
   "author": "Richard <richardofay@gmail.com>",
   "private": true,
   "scripts": {
@@ -11,9 +11,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "es6-promise": "^4.2.8",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vuetify": "^2.2.30"
+    "vuetify": "^2.2.30",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
