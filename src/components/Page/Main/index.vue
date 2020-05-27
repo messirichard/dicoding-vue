@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div class="tes1">
+    <p>ini tes 1</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+
 }
 </script>
 
 <style>
-  @import "./assets/sass/Global.sass";
+  @import '../../../assets/sass/Main.sass';
 </style>
