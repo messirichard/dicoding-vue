@@ -62,8 +62,8 @@ export default {
     },
     {
       icon: 'mdi-cellphone-link',
-      text: 'Indonesia',
-      link: '/ind'
+      text: 'My info',
+      link: '/acc'
     }
     ]
   })
