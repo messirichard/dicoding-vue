@@ -6,13 +6,11 @@ const listcountry = {
   },
 
   getters: {
-    getData: (state) => state.listcountry
   },
-  
+
   mutations: {
     SET_LC (state, data) {
       state.listcountry = data
-      console.log(state.listcountry)
     }
   },
 

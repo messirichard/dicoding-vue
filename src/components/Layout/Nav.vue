@@ -62,8 +62,8 @@ export default {
     },
     {
       icon: 'mdi-cellphone-link',
-      text: 'Data Table Corona',
-      link: '/dtable'
+      text: 'Indonesia',
+      link: '/ind'
     }
     ]
   })

@@ -3,18 +3,18 @@
     <div class="row">
       <div class="col-md-12">
         <div class="title">
-          <h3>Information Corona Global</h3>
+          <h3>Information Corona Indonesia</h3>
         </div>
       </div>
     </div>
     <div class="row pt-4">
-      <Confirmed v-bind:worldtotal="worldtotal" />
-      <Deaths v-bind:worldtotal="worldtotal" />
-      <Recovered v-bind:worldtotal="worldtotal" />
+      <Confirmed v-bind:indtotal="indtotal" />
+      <Deaths v-bind:indtotal="indtotal" />
+      <Recovered v-bind:indtotal="indtotal" />
     </div>
     <div class="row pt-4">
       <div class="col-md-12">
-        <h3>List Country</h3>
+        <h3>List Province</h3>
       </div>
       <div class="col-md-12 pt-2">
         <v-card>
@@ -41,16 +41,16 @@ export default {
     Recovered
   },
   created () {
-    this.$store.dispatch('worldtotal/loadWorldtotal')
-    this.$store.dispatch('listcountry/loadListcountry')
+    this.$store.dispatch('indtotal/loadIndtotal')
+    // this.$store.dispatch('listcountry/loadListcountry')
   },
   computed: {
     ...mapState(
-      'worldtotal', ['worldtotal']
-    ),
-    ...mapState(
-      'listcountry', ['listcountry']
+      'indtotal', ['indtotal']
     )
+    // ...mapState(
+    //   'listcountry', ['listcountry']
+    // )
   },
   data () {
     return {

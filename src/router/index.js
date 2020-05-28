@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Dashboard from '@/components/Template/Dashboard'
-import DataTable from '@/components/Page/DataTable/index'
+import Indonesia from '@/components/Page/Indonesia/index'
 import Global from '@/components/Page/Global/index'
 
 Vue.use(Router)
@@ -19,9 +19,9 @@ export default new Router({
         component: Global
       },
       {
-        path: '/dtable',
-        name: 'DataTable',
-        component: DataTable
+        path: '/ind',
+        name: 'Indonesia',
+        component: Indonesia
       }
       ]
     }

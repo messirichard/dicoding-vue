@@ -5,12 +5,12 @@ const worldtotal = {
     worldtotal: []
   },
 
-  getters: {
-  },
+  getters: {},
 
   mutations: {
     SET_WT (state, data) {
       state.worldtotal = data
+      console.log(state.worldtotal)
     }
   },
 
