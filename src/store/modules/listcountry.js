@@ -2,7 +2,7 @@ import axios from 'axios'
 const listcountry = {
   namespaced: true,
   state: {
-    listcountry: []
+    listcountry: ''
   },
 
   getters: {
