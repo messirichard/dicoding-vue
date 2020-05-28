@@ -57,7 +57,7 @@ export default {
     drawer: true,
     items: [{
       icon: 'mdi-home',
-      text: 'Global',
+      text: 'Dashboard',
       link: '/'
     },
     {
