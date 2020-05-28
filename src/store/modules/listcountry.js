@@ -2,15 +2,17 @@ import axios from 'axios'
 const listcountry = {
   namespaced: true,
   state: {
-    listcountry: ''
+    listcountry: []
   },
 
   getters: {
+    getData: (state) => state.listcountry
   },
-
+  
   mutations: {
     SET_LC (state, data) {
       state.listcountry = data
+      console.log(state.listcountry)
     }
   },
 

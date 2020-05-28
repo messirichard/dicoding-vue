@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Dashboard from '@/components/Template/Dashboard'
 import DataTable from '@/components/Page/DataTable/index'
-import Main from '@/components/Page/Main/index'
+import Global from '@/components/Page/Global/index'
 
 Vue.use(Router)
 
@@ -15,8 +15,8 @@ export default new Router({
       component: Dashboard,
       children: [{
         path: '/',
-        name: 'Main',
-        component: Main
+        name: 'Global',
+        component: Global
       },
       {
         path: '/dtable',
