@@ -1,22 +1,26 @@
-# dicoding
+Untuk git bisa langsung aja pull dari github saya, repo sudah saya public
+https://github.com/messirichard/dicoding-vue.git
 
-> Richard Project Dicoding Submission
+Untuk Tampilan yang sudah terdeploy ada di
+https://dicoding-vue.messirichard.now.sh/
 
-## Build Setup
+untuk bagian webpack ada di folder config dan build
 
-``` bash
-# install dependencies
-npm install
+saya menerapkan atomic design untuk tahap development
+untuk bagian development bisa jalankan "npm run dev"
+untuk bagian production jalankan "npm run build" setelah itu "serve dist" untuk melihat hasilnya
 
-# serve with hot reload at localhost:8080
-npm run dev
+saya memakai vuex untuk getData yang ada di folder src/store/modules
+untuk tampilan ada di src/components/page
 
-# build for production with minification
-npm run build
+untuk bagian custom element ada di bagian 
+src\components\Page\Global\index.vue
+src\components\Page\Global\Confirmed.vue
+src\components\Page\Global\Deaths.vue
+src\components\Page\Global\Recovered.vue
+semua memakai props seperti yang ada di modul dari dicoding hanya saja saya penerapannya di vue
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+mohon dilihat secara detail setiap code 
+tampilan sudah responsive
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-"# dicoding-vue" 
+Terima Kasih 
